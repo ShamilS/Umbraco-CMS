@@ -85,3 +85,6 @@ NDependOut/*
 *.ndproj
 QueryResult.htm
 *.ndproj
+
+src/Umbraco.Tests.ORM.Standalone/App_Data/TEMP/PluginCache/umbraco-plugins.MILANO.hash
+src/Umbraco.Tests.ORM.Standalone/App_Data/TEMP/PluginCache/umbraco-plugins.MILANO.hash
