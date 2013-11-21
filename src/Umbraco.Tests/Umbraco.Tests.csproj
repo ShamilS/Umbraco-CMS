@@ -144,6 +144,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AttemptTests.cs" />
+    <Compile Include="BusinessLogic\A Set of missing DTOs to be moved to the base classlib%28s%29 .cs" />
+    <Compile Include="BusinessLogic\BaseORMTest.cs" />
+    <Compile Include="BusinessLogic\BaseORMTest_TRAL.cs" />
+    <Compile Include="BusinessLogic\BaseORMTest_TRAL_MacroRepository.cs" />
+    <Compile Include="BusinessLogic\cms_businesslogic_RecycleBin_Tests.cs" />
     <Compile Include="MockTests.cs" />
     <Compile Include="Mvc\UmbracoViewPageTests.cs" />
     <Compile Include="Persistence\Auditing\AuditTests.cs" />
