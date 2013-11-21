@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using umbraco.cms.businesslogic.web;
 using Umbraco.Tests.BusinessLogic;
+using Umbraco.Tests.ORM;
 
 namespace Umbraco.Tests
 {
@@ -41,15 +42,16 @@ namespace Umbraco.Tests
         {
             try
             {
-                //var o = new cms_businesslogic_ContentTypeTests();
+                var o = new cms_businesslogic_RecycleBin_Tests();
 
-                //o.Initialize();
+                o.Initialize();
 
+                o.Test_RecycleBin_EnsureData(); 
                 //o.GetAll_ReturnsAllContentTypes();
 
-                //o.TearDown();
+                o.TearDown();
 
-                //o.FixtureTearDown();
+                o.FixtureTearDown();
 
             }
             catch (Exception ex)

@@ -9,7 +9,7 @@
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Umbraco.Tests.ORM</RootNamespace>
-    <AssemblyName>Umbraco.Tests</AssemblyName>
+    <AssemblyName>Umbraco.Tests.ORM</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
@@ -238,6 +238,7 @@
   <ItemGroup>
     <Content Include="!Notes\!BreakingChanges.txt" />
     <Content Include="!Notes\NOTES.txt" />
+    <Content Include="!Notes\RunningIssues.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
