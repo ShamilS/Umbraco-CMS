@@ -1,0 +1,36 @@
+interfaces.dll - umbraco.intefaces
+
+Umbraco.Core.dll - Umbraco.Core
+     interfaces.dll - umbraco.intefaces
+
+umbraco.DataLayer.dll - umbraco.datalayer
+     Umbraco.Core.dll - Umbraco.Core
+
+SQLCE4Umbraco.dll - SqlCE4Umbraco
+     umbraco.DataLayer.dll - umbraco.datalayer
+
+businesslogic.dll - umbraco.businesslogic
+     Umbraco.Core.dll - Umbraco.Core
+     umbraco.DataLayer.dll - umbraco.datalayer
+     interfaces.dll - umbraco.intefaces
+
+cms.dll - umbraco.cms
+     businesslogic.dll - umbraco.businesslogic
+     Umbraco.Core.dll - Umbraco.Core
+     umbraco.DataLayer.dll - umbraco.datalayer
+     interfaces.dll - umbraco.intefaces
+
+umbraco.dll - umbraco.web
+     ?
+
+Umbraco.Tests.dll - umbraco.tests
+     ?
+
+Umbraco.Tests.ORM
+      umbraco.dll - umbraco.web
+      businesslogic.dll - umbraco.businesslogic
+      cms.dll - umbraco.cms
+      Umbraco.Core.dll - Umbraco.Core
+      umbraco.DataLayer.dll - umbraco.datalayer
+      interfaces.dll - umbraco.intefaces
+      Umbraco.Tests.dll - umbraco.tests
